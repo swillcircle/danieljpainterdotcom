@@ -1,0 +1,39 @@
+doctype html
+html
+  include views/head.jade
+
+  body
+    nav.mobile-nav.is-closed
+      a(class="mobile-nav-item", href="about.html") ABOUT
+      a(class="mobile-nav-item", href="work.html") WORK
+      a(class="mobile-nav-item selected", href="contact.html") CONTACT
+      
+    header(class="primary-header")
+      a(class="logo" href="home.html")
+        h1(class="logo-text") DANIEL PAINTER
+      .menu
+        img(class="menu-icon", src="img/menu-icon.png")
+      nav(class="primary-nav")
+        a(class="primary-nav-item",href="about.html") ABOUT
+        a(class="primary-nav-item", href="work.html") WORK
+        a(class="primary-nav-item selected", href="contact.html") CONTACT
+
+    div(class="personal-email")
+      p.
+        dannyjpainter@gmail.com
+
+    div(class="contact-wrapper")
+      form(method="post" action="https://formspree.io/dannyjpainter@gmail.com" class="contact-form")
+        label(for="name") Name
+        input(type="text" name="name" class="form-input" required)
+        label(for="email") Email
+        input(type="email" name="email" class="form-input" required)
+        label(for="subject") Subject
+        input(type="text" name="subject" class="form-input")
+        label(for="message") Message
+        textarea(name="message" class="form-input" required)
+        button(class="form-btn" type="submit") Send Message
+    footer
+      a(href='https://www.instagram.com/swillcircle/')
+        img(class="social-icon", src='img/instagram logo.png', alt='Instagram')
+      p &copy; 2016 Daniel Painter

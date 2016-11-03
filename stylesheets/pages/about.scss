@@ -1,0 +1,85 @@
+/*******************
+About
+*******************/
+
+.about-wrapper{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 5%;
+
+}
+
+.about {
+  position: relative;
+
+}
+
+.profile-photo {
+  display: block;
+  padding: 15px 2.5% 0 20.5%;
+}
+
+.profile-photo-2 {
+  display: none;
+}
+
+.about-image-container {
+  background: black;
+
+  &::after {
+    display: table;
+    clear: both;
+  }
+}
+
+.about-text {
+  position: absolute;
+  top: 50%;
+  // TODO: Add vendor prefixes to transform
+  transform: translate(0, -50%);
+  right: 30px;
+  width: 33%;
+  color: #d5d6d8;
+  font-family: 'Roboto',Helvetica Neue,Helvetica,Arial,sans-serif;
+	font-size: 1.2em;
+	font-weight: 100;
+	line-height: 1em;
+  margin: 0;
+  display: inline-block;
+
+  @media screen and (max-width: 970px) {
+    position:static;
+    transform: none;
+    width: 100%;
+    margin: 60px 0;
+  }
+}
+
+@media only screen and (max-width: 970px){
+  .about-text {
+    color: black;
+  }
+}
+
+@media only screen and (max-width: 970px) {
+  .about-image-container {
+    background:none;
+  }
+}
+
+@media only screen and (max-width: 970px) {
+  .profile-photo {
+    display: none;
+    padding: 15px 2.5% 0 20.5%;
+  }
+  .profile-photo-2 {
+    display: block;
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 550px){
+  .about-text {
+    font-size: 1.6em;
+  }
+}

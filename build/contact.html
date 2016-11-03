@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="uft-8">
+    <title>Daniel Painter</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,400" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+  </head>
+  <body>
+    <nav class="mobile-nav is-closed"><a href="about.html" class="mobile-nav-item">ABOUT</a><a href="work.html" class="mobile-nav-item">WORK</a><a href="contact.html" class="mobile-nav-item selected">CONTACT</a></nav>
+    <header class="primary-header"><a href="home.html" class="logo">
+        <h1 class="logo-text">DANIEL PAINTER</h1></a>
+      <div class="menu"><img src="img/menu-icon.png" class="menu-icon"></div>
+      <nav class="primary-nav"><a href="about.html" class="primary-nav-item">ABOUT</a><a href="work.html" class="primary-nav-item">WORK</a><a href="contact.html" class="primary-nav-item selected">CONTACT</a></nav>
+    </header>
+    <div class="personal-email">
+      <p>
+        dannyjpainter@gmail.com
+        
+      </p>
+    </div>
+    <div class="contact-wrapper">
+      <form method="post" action="https://formspree.io/dannyjpainter@gmail.com" class="contact-form">
+        <label for="name">Name</label>
+        <input type="text" name="name" required class="form-input">
+        <label for="email">Email</label>
+        <input type="email" name="email" required class="form-input">
+        <label for="subject">Subject</label>
+        <input type="text" name="subject" class="form-input">
+        <label for="message">Message</label>
+        <textarea name="message" required class="form-input"></textarea>
+        <button type="submit" class="form-btn">Send Message</button>
+      </form>
+    </div>
+    <footer><a href="https://www.instagram.com/swillcircle/"><img src="img/instagram logo.png" alt="Instagram" class="social-icon"></a>
+      <p>&copy; 2016 Daniel Painter</p>
+    </footer>
+  </body>
+</html>

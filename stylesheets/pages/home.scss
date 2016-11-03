@@ -1,0 +1,75 @@
+/*******************
+Home Page
+*******************/
+
+.home-page {
+  width: auto;
+  margin:20px 0 ;
+  padding: 0 5%;
+  align-items: center;
+}
+
+
+/*******************
+Keyframes
+*******************/
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+.fade-in-bottom {
+  position: relative;
+  z-index: 0;
+  width: 50%;
+  margin: 30px 50% 30px 25%;
+  align-content: center;
+  opacity:0;
+  -webkit-animation:fadeIn ease-in 1;
+  -moz-animation:fadeIn ease-in 1;
+  animation:fadeIn ease-in 1;
+
+  -webkit-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration:1.5s;
+  -moz-animation-duration:1.5s;
+  animation-duration:1.5s;
+}
+
+.fade-in-top {
+  position: absolute;;
+  z-index: 1;
+  width: 70%;
+  margin: 25% 0 0 10%;
+  align-content: center;
+  opacity:0;
+  -webkit-animation:fadeIn ease-in 1;
+  -moz-animation:fadeIn ease-in 1;
+  animation:fadeIn ease-in 1;
+
+  -webkit-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration:3.5s;
+  -moz-animation-duration:3.5s;
+  animation-duration:3.5s;
+}
+
+
+@media only screen and (max-width: 600px){
+  .home-page {
+    width: auto;
+    margin:20% 0 ;
+    padding: 0 5%;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 430px){
+  .home-page {
+    width: auto;
+    margin:35% 0 ;
+    padding: 0 5%;
+    align-items: center;
+  }
+}

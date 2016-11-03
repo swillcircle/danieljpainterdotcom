@@ -1,0 +1,19 @@
+@import "base/normalize";
+@import "base/general";
+
+@import "components/buttons";
+
+@import "utils/variables";
+@import "utils/mixins";
+
+@import "layout/header";
+@import "layout/footer";
+
+
+@import "pages/home";
+@import "pages/about";
+@import "pages/work";
+@import "pages/contact";
+
+// @import "styles";
+@import "base/responsive";
