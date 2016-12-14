@@ -2,389 +2,314 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "19115",
 "files": {
-	"\/build\/about.html": {
+	"\/docs\/about.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/build\/about.html",
+		"inputAbbreviatedPath": "\/docs\/about.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/build\/about.jade": {
-		"compileDebug": 1,
-		"fileType": 512,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/build\/about.jade",
-		"outputAbbreviatedPath": "\/build\/about.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0
-		},
-	"\/build\/contact.html": {
+	"\/docs\/contact.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/build\/contact.html",
+		"inputAbbreviatedPath": "\/docs\/contact.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/build\/contact.jade": {
-		"compileDebug": 1,
-		"fileType": 512,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/build\/contact.jade",
-		"outputAbbreviatedPath": "\/build\/contact.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
-		"outputStyle": 0
-		},
-	"\/build\/home.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/build\/home.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/build\/img\/Approach.jpg": {
+	"\/docs\/img\/Approach.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 394786,
-		"inputAbbreviatedPath": "\/build\/img\/Approach.jpg",
-		"outputAbbreviatedPath": "\/build\/img\/Approach.jpg",
+		"inputAbbreviatedPath": "\/docs\/img\/Approach.jpg",
+		"outputAbbreviatedPath": "\/docs\/img\/Approach.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/build\/img\/daniel-painter.png": {
+	"\/docs\/img\/daniel-painter.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 15544,
-		"inputAbbreviatedPath": "\/build\/img\/daniel-painter.png",
-		"outputAbbreviatedPath": "\/build\/img\/daniel-painter.png",
+		"inputAbbreviatedPath": "\/docs\/img\/daniel-painter.png",
+		"outputAbbreviatedPath": "\/docs\/img\/daniel-painter.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/build\/img\/Danny Spirit Animal.jpg": {
+	"\/docs\/img\/Danny Spirit Animal.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 709314,
-		"inputAbbreviatedPath": "\/build\/img\/Danny Spirit Animal.jpg",
-		"outputAbbreviatedPath": "\/build\/img\/Danny Spirit Animal.jpg",
+		"inputAbbreviatedPath": "\/docs\/img\/Danny Spirit Animal.jpg",
+		"outputAbbreviatedPath": "\/docs\/img\/Danny Spirit Animal.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/build\/img\/Girl Standing In Front of You.jpg": {
+	"\/docs\/img\/Girl Standing In Front of You.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 431260,
-		"inputAbbreviatedPath": "\/build\/img\/Girl Standing In Front of You.jpg",
-		"outputAbbreviatedPath": "\/build\/img\/Girl Standing In Front of You.jpg",
+		"inputAbbreviatedPath": "\/docs\/img\/Girl Standing In Front of You.jpg",
+		"outputAbbreviatedPath": "\/docs\/img\/Girl Standing In Front of You.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/build\/img\/Girl With Blue Hand Out.jpg": {
+	"\/docs\/img\/Girl With Blue Hand Out.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 328924,
-		"inputAbbreviatedPath": "\/build\/img\/Girl With Blue Hand Out.jpg",
-		"outputAbbreviatedPath": "\/build\/img\/Girl With Blue Hand Out.jpg",
+		"inputAbbreviatedPath": "\/docs\/img\/Girl With Blue Hand Out.jpg",
+		"outputAbbreviatedPath": "\/docs\/img\/Girl With Blue Hand Out.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/build\/img\/HandToHisSide.jpg": {
+	"\/docs\/img\/HandToHisSide.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 617971,
-		"inputAbbreviatedPath": "\/build\/img\/HandToHisSide.jpg",
-		"outputAbbreviatedPath": "\/build\/img\/HandToHisSide.jpg",
+		"inputAbbreviatedPath": "\/docs\/img\/HandToHisSide.jpg",
+		"outputAbbreviatedPath": "\/docs\/img\/HandToHisSide.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/build\/img\/instagram logo.png": {
+	"\/docs\/img\/instagram logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 2395,
-		"inputAbbreviatedPath": "\/build\/img\/instagram logo.png",
-		"outputAbbreviatedPath": "\/build\/img\/instagram logo.png",
+		"inputAbbreviatedPath": "\/docs\/img\/instagram logo.png",
+		"outputAbbreviatedPath": "\/docs\/img\/instagram logo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/build\/img\/Looking_Up.jpg": {
+	"\/docs\/img\/Looking_Up.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 691127,
-		"inputAbbreviatedPath": "\/build\/img\/Looking_Up.jpg",
-		"outputAbbreviatedPath": "\/build\/img\/Looking_Up.jpg",
+		"inputAbbreviatedPath": "\/docs\/img\/Looking_Up.jpg",
+		"outputAbbreviatedPath": "\/docs\/img\/Looking_Up.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/build\/img\/Man Walking By.jpg": {
+	"\/docs\/img\/Man Walking By.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 403149,
-		"inputAbbreviatedPath": "\/build\/img\/Man Walking By.jpg",
-		"outputAbbreviatedPath": "\/build\/img\/Man Walking By.jpg",
+		"inputAbbreviatedPath": "\/docs\/img\/Man Walking By.jpg",
+		"outputAbbreviatedPath": "\/docs\/img\/Man Walking By.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/build\/img\/ManBreathing.jpg": {
+	"\/docs\/img\/ManBreathing.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 824556,
-		"inputAbbreviatedPath": "\/build\/img\/ManBreathing.jpg",
-		"outputAbbreviatedPath": "\/build\/img\/ManBreathing.jpg",
+		"inputAbbreviatedPath": "\/docs\/img\/ManBreathing.jpg",
+		"outputAbbreviatedPath": "\/docs\/img\/ManBreathing.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/build\/img\/ManStanding.jpg": {
+	"\/docs\/img\/ManStanding.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 488392,
-		"inputAbbreviatedPath": "\/build\/img\/ManStanding.jpg",
-		"outputAbbreviatedPath": "\/build\/img\/ManStanding.jpg",
+		"inputAbbreviatedPath": "\/docs\/img\/ManStanding.jpg",
+		"outputAbbreviatedPath": "\/docs\/img\/ManStanding.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/build\/img\/ManStanding.png": {
+	"\/docs\/img\/ManStanding.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 1.72207e+06,
-		"inputAbbreviatedPath": "\/build\/img\/ManStanding.png",
-		"outputAbbreviatedPath": "\/build\/img\/ManStanding.png",
+		"inputAbbreviatedPath": "\/docs\/img\/ManStanding.png",
+		"outputAbbreviatedPath": "\/docs\/img\/ManStanding.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/build\/img\/menu-icon.png": {
+	"\/docs\/img\/menu-icon.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 9131,
-		"inputAbbreviatedPath": "\/build\/img\/menu-icon.png",
-		"outputAbbreviatedPath": "\/build\/img\/menu-icon.png",
+		"inputAbbreviatedPath": "\/docs\/img\/menu-icon.png",
+		"outputAbbreviatedPath": "\/docs\/img\/menu-icon.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/build\/img\/overlay.png": {
+	"\/docs\/img\/overlay.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 279,
-		"inputAbbreviatedPath": "\/build\/img\/overlay.png",
-		"outputAbbreviatedPath": "\/build\/img\/overlay.png",
+		"inputAbbreviatedPath": "\/docs\/img\/overlay.png",
+		"outputAbbreviatedPath": "\/docs\/img\/overlay.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/build\/img\/Overview.jpg": {
+	"\/docs\/img\/Overview.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 3.99186e+06,
-		"inputAbbreviatedPath": "\/build\/img\/Overview.jpg",
-		"outputAbbreviatedPath": "\/build\/img\/Overview.jpg",
+		"inputAbbreviatedPath": "\/docs\/img\/Overview.jpg",
+		"outputAbbreviatedPath": "\/docs\/img\/Overview.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/build\/img\/profile-photo-2.jpg": {
+	"\/docs\/img\/profile-photo-2.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 118266,
-		"inputAbbreviatedPath": "\/build\/img\/profile-photo-2.jpg",
-		"outputAbbreviatedPath": "\/build\/img\/profile-photo-2.jpg",
+		"inputAbbreviatedPath": "\/docs\/img\/profile-photo-2.jpg",
+		"outputAbbreviatedPath": "\/docs\/img\/profile-photo-2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/build\/img\/profile-photo.png": {
+	"\/docs\/img\/profile-photo.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 131072,
-		"inputAbbreviatedPath": "\/build\/img\/profile-photo.png",
-		"outputAbbreviatedPath": "\/build\/img\/profile-photo.png",
+		"inputAbbreviatedPath": "\/docs\/img\/profile-photo.png",
+		"outputAbbreviatedPath": "\/docs\/img\/profile-photo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/build\/img\/Red Women.jpg": {
+	"\/docs\/img\/Red Women.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 589999,
-		"inputAbbreviatedPath": "\/build\/img\/Red Women.jpg",
-		"outputAbbreviatedPath": "\/build\/img\/Red Women.jpg",
+		"inputAbbreviatedPath": "\/docs\/img\/Red Women.jpg",
+		"outputAbbreviatedPath": "\/docs\/img\/Red Women.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/build\/img\/Stranger.jpg": {
+	"\/docs\/img\/Stranger.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 514952,
-		"inputAbbreviatedPath": "\/build\/img\/Stranger.jpg",
-		"outputAbbreviatedPath": "\/build\/img\/Stranger.jpg",
+		"inputAbbreviatedPath": "\/docs\/img\/Stranger.jpg",
+		"outputAbbreviatedPath": "\/docs\/img\/Stranger.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/build\/img\/Woman_In_Field.jpg": {
+	"\/docs\/img\/Woman_In_Field.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 758370,
-		"inputAbbreviatedPath": "\/build\/img\/Woman_In_Field.jpg",
-		"outputAbbreviatedPath": "\/build\/img\/Woman_In_Field.jpg",
+		"inputAbbreviatedPath": "\/docs\/img\/Woman_In_Field.jpg",
+		"outputAbbreviatedPath": "\/docs\/img\/Woman_In_Field.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/build\/img\/WomenSitting.jpg": {
+	"\/docs\/img\/WomenSitting.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 446316,
-		"inputAbbreviatedPath": "\/build\/img\/WomenSitting.jpg",
-		"outputAbbreviatedPath": "\/build\/img\/WomenSitting.jpg",
+		"inputAbbreviatedPath": "\/docs\/img\/WomenSitting.jpg",
+		"outputAbbreviatedPath": "\/docs\/img\/WomenSitting.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/build\/img\/WomenStanding.jpg": {
+	"\/docs\/img\/WomenStanding.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 360003,
-		"inputAbbreviatedPath": "\/build\/img\/WomenStanding.jpg",
-		"outputAbbreviatedPath": "\/build\/img\/WomenStanding.jpg",
+		"inputAbbreviatedPath": "\/docs\/img\/WomenStanding.jpg",
+		"outputAbbreviatedPath": "\/docs\/img\/WomenStanding.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/build\/js\/jquery-3.1.1.min.js": {
+	"\/docs\/index.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/docs\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/docs\/js\/jquery-3.1.1.min.js": {
 		"fileType": 64,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/build\/js\/jquery-3.1.1.min.js",
-		"outputAbbreviatedPath": "\/build\/js\/min\/jquery-3.1.1.min-min.js",
+		"inputAbbreviatedPath": "\/docs\/js\/jquery-3.1.1.min.js",
+		"outputAbbreviatedPath": "\/docs\/js\/min\/jquery-3.1.1.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/build\/js\/min\/scripts-min.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/build\/js\/min\/scripts-min.js",
-		"outputAbbreviatedPath": "\/build\/js\/min\/min\/scripts-min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/build\/js\/scripts.js": {
+	"\/docs\/js\/scripts.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/build\/js\/scripts.js",
-		"outputAbbreviatedPath": "\/build\/js\/min\/scripts-min.js",
+		"inputAbbreviatedPath": "\/docs\/js\/scripts.js",
+		"outputAbbreviatedPath": "\/docs\/js\/min\/scripts-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 0
 		},
-	"\/build\/styles.css": {
+	"\/docs\/styles.css": {
 		"fileType": 16,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/build\/styles.css",
+		"inputAbbreviatedPath": "\/docs\/styles.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/build\/views\/head.html": {
+	"\/docs\/work.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/build\/views\/head.html",
+		"inputAbbreviatedPath": "\/docs\/work.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
-		},
-	"\/build\/views\/head.jade": {
-		"compileDebug": 1,
-		"fileType": 512,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/build\/views\/head.jade",
-		"outputAbbreviatedPath": "\/build\/views\/head.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0
-		},
-	"\/build\/work.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/build\/work.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/build\/work.jade": {
-		"compileDebug": 1,
-		"fileType": 512,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/build\/work.jade",
-		"outputAbbreviatedPath": "\/build\/work.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0
-		},
-	"\/javascripts\/vendor\/jquery-3.1.1.min.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/javascripts\/vendor\/jquery-3.1.1.min.js",
-		"outputAbbreviatedPath": "\/build\/js\/jquery-3.1.1.min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
 		},
 	"\/stylesheets\/base\/general.scss": {
 		"createSourceMap": 0,
@@ -490,7 +415,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/stylesheets\/main.scss",
-		"outputAbbreviatedPath": "\/build\/styles.css",
+		"outputAbbreviatedPath": "\/docs\/styles.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
 		"outputStyle": 0,
@@ -562,22 +487,6 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/stylesheets\/styles.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/stylesheets\/styles.scss",
-		"outputAbbreviatedPath": "\/css\/styles.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
 	"\/stylesheets\/utils\/mixins.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -609,6 +518,61 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
+		},
+	"\/views\/about.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/views\/about.jade",
+		"outputAbbreviatedPath": "\/docs\/about.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1,
+		"outputStyle": 0
+		},
+	"\/views\/contact.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/views\/contact.jade",
+		"outputAbbreviatedPath": "\/docs\/contact.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1,
+		"outputStyle": 0
+		},
+	"\/views\/head.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
+		"inputAbbreviatedPath": "\/views\/head.jade",
+		"outputAbbreviatedPath": "\/views\/head.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
+	"\/views\/index.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/views\/index.jade",
+		"outputAbbreviatedPath": "\/docs\/index.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1,
+		"outputStyle": 0
+		},
+	"\/views\/work.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/views\/work.jade",
+		"outputAbbreviatedPath": "\/docs\/work.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1,
+		"outputStyle": 0
 		}
 	},
 "hooks": [
