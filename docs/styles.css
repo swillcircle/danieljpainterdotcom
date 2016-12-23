@@ -715,6 +715,9 @@ Media Queries
 
   #gallery .gallery-images:nth-child(2n+2) {
     margin-right: 0; } }
+/*******************
+Lightbox
+*******************/
 div.cssbox {
   display: inline-block; }
 
