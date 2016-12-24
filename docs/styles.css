@@ -601,7 +601,8 @@ About
   display: none; }
 
 .about-image-container {
-  background: black; }
+  background: black;
+  border-radius: 10px; }
   .about-image-container::after {
     display: table;
     clear: both; }
