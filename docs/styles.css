@@ -518,7 +518,8 @@ Home Page
   width: auto;
   margin: 20px 0;
   padding: 0 5%;
-  align-items: center; }
+  align-items: center;
+  overflow: hidden; }
 
 /*******************
 Keyframes
