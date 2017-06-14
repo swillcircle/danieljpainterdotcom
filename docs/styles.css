@@ -563,6 +563,7 @@ Keyframes
   position: absolute;
   z-index: 1;
   width: 70%;
+  margin: auto;
   max-width: 900px;
   -webkit-animation: fadeIn ease-in 1;
   -moz-animation: fadeIn ease-in 1;
