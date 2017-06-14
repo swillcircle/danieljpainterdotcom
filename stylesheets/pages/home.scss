@@ -3,18 +3,13 @@ Home Page
 *******************/
 
 .home-page {
-  width: auto;
-  margin:20px 0 ;
+  height: 100vh;
   padding: 0 5%;
+  display: flex;
   align-items: center;
   overflow: hidden;
-}
-
-.home-page a {
   text-decoration: none;
-  display: flex;
   justify-content: center;
-  align-items: center;
   overflow: hidden;
 }
 
@@ -28,13 +23,8 @@ Keyframes
 .fade-in-bottom {
   margin: auto;
   width: 100%;
-  -webkit-animation: fadeIn ease-in 1;
-  -moz-animation: fadeIn ease-in 1;
   animation: fadeIn ease-in 1;
-  -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  -webkit-animation-duration: 1.5s;
-  -moz-animation-duration: 1.5s;
   animation-duration: 1.5s;
   max-width: 600px;
 }
@@ -46,12 +36,7 @@ Keyframes
   align-self: center;
   margin: auto;
   max-width: 900px;
-  -webkit-animation:fadeIn ease-in 1;
-  -moz-animation:fadeIn ease-in 1;
   animation:fadeIn ease-in 1;
-  -webkit-animation-fill-mode:forwards;
   animation-fill-mode:forwards;
-  -webkit-animation-duration:3.5s;
-  -moz-animation-duration:3.5s;
   animation-duration:3.5s;
 }
