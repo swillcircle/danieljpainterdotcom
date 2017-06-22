@@ -512,12 +512,25 @@ footer {
 Home Page
 *******************/
 .home-page {
-  height: 100vh;
   padding: 0 5%;
   display: flex;
   align-items: center;
+  overflow: hidden;
+  width: auto;
+  margin: 20px 0;
   justify-content: center;
-  overflow: hidden; }
+  display: -webkit-flex;
+  -webkit-flex-orient: horizontal;
+  -webkit-flex-pack: center;
+  -webkit-flex-align: center;
+  display: -moz-flex;
+  -moz-flex-orient: horizontal;
+  -moz-flex-pack: center;
+  -moz-flex-align: center;
+  display: flex;
+  flex-orient: horizontal;
+  flex-pack: center;
+  flex-align: center; }
 
 /*******************
 Keyframes
