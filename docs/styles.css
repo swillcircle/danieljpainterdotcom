@@ -516,7 +516,6 @@ Home Page
   padding: 0 5%;
   display: flex;
   align-items: center;
-  text-decoration: none;
   justify-content: center;
   overflow: hidden; }
 
@@ -542,7 +541,8 @@ Keyframes
     opacity: 1; } }
 
 .fade-in-bottom {
-  margin: auto;
+  position: relative;
+  align-content: center;
   width: 100%;
   animation: fadeIn ease-in 1;
   animation-fill-mode: forwards;
