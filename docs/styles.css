@@ -528,14 +528,6 @@ Keyframes
   to {
     opacity: 1; } }
 
-@keyframes fadeInTop {
-  from {
-    opacity: 0;
-    transform: translate(-50%, 0); }
-  to {
-    opacity: 1;
-    transform: translate(-50%, -50%); } }
-
 .fade-in-bottom {
   align-content: center;
   width: 100%;
@@ -549,7 +541,7 @@ Keyframes
   z-index: 1;
   margin: auto;
   max-width: 900px;
-  animation: fadeInTop ease-in 1;
+  animation: fadeIn ease-in 1;
   animation-fill-mode: forwards;
   animation-duration: 3.5s;
   top: 50%;
