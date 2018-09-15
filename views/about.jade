@@ -3,31 +3,24 @@ html
   include head.jade
 
   body
-    nav.mobile-nav.is-closed
-      a(class="mobile-nav-item", href="about.html") ABOUT
-      a(class="mobile-nav-item", href="work.html") WORK
-      a(class="mobile-nav-item", href="contact.html") CONTACT
-      
-    header(class="primary-header")
-      a(class="logo" href="index.html")
-        h1(class="logo-text") DANIEL PAINTER
-      .menu
-        img(class="menu-icon", src="img/menu-icon.png")
-      nav(class="primary-nav")
-        a(class="primary-nav-item selected", href="about.html") ABOUT
-        a(class="primary-nav-item", href="work.html") WORK
-        a(class="primary-nav-item", href="contact.html") CONTACT
-        
+    include nav.jade
+    .about-image
+      img(class="profile-photo", src="img/about-profile-photo.png")
     .about-wrapper
-      section.about
-        .about-image-container
-          img(class="profile-photo", src="img/profile-photo.png")
-          img(class="profile-photo-2", src="img/profile-photo-2.jpg")
-          
-        h3(class="about-text")
-           | My work is about a need to build and destroy, to allow physicality and natural properties of elements to create and guide the work and myself. I use the chemical reactions of iron and copper to create my palette and their patinas to guide the image or subject. I use traditional elements of charcoal, ink, and lead to define and detail the subject. The work suggests beauty within disorder and vulnerability within destruction. The works are created out of my reaction to the evolution of marks and colors in order to find a figure that creates a cohesive piece.
-           
-    footer
-      a(href='https://www.instagram.com/swillcircle/')
-        img(class="social-icon", src='img/instagram logo.png', alt='Instagram')
-      p &copy; 2016 Daniel Painter
+      section.upcoming-container
+        h1.upcoming-header DANIEL PAINTER ART
+        h2.upcoming-text UPCOMING EXHIBITIONS | EVENTS
+        h3.upcoming-events None at this time
+      section.about-container
+        .bio-container
+          h1.bio-headline BIO
+          h3.bio-text
+           | Daniel Painter was born in 1980 in northwest Ohio. He received a bachelor’s degree from Columbus College of Art and Design. Now living in Columbus, Ohio, Daniel now focuses on, but not limited to, painting.
+        .work-container
+         h1.work-headline WORK
+         h3.work-text
+          | My work is about a need to build and destroy, to allow physicality and natural properties of elements to create and guide the work and myself. I use the chemical reactions of iron and copper to create my palette and their patinas to guide the image or subject. I use traditional elements of charcoal, ink, and lead to define and detail the subject. The work suggests beauty within disorder and vulnerability within destruction. The works are created out of my reaction to the evolution of marks and colors in order to find a figure that creates a cohesive piece.
+  footer.insta-logo 
+    a(href='https://www.instagram.com/swillcircle/')
+      img(class="social-icon", src='img/instagram logo.png', alt='Instagram')
+    p.insta-copy &copy; 2018 Daniel Painter
