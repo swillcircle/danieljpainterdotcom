@@ -384,6 +384,7 @@ img {
   flex-direction: column;
   align-content: center;
   position: sticky;
+  position: -webkit-sticky;
   top: 0;
   background: #fff; }
   .primary-header:after {
