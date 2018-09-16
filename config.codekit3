@@ -578,7 +578,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/stylesheets\/layout\/header.sass": {
+	"\/stylesheets\/layout\/nav.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -586,7 +586,7 @@
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/stylesheets\/css\/header.css",
+		"oAP": "\/stylesheets\/css\/nav.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

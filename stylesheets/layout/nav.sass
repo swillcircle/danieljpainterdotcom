@@ -2,11 +2,14 @@
 
 .primary-header
   @include clearfix
-  padding: 8.25% 2.5%
+  padding: 5% 2.5%
   width: 100%
   display: flex
   flex-direction: column
   align-content: center
+  position: sticky
+  top: 0
+  background: #fff
 
 .logo
   margin: auto
@@ -44,16 +47,7 @@
   color: #c3bfbf
 
 .scrolled-nav
-  padding: 4.25% 2.5%
-  display: flex
-  position: fixed
-  z-index: 100
-  align-items: center
-  flex-wrap: wrap
-  justify-content: flex-end
-  background-color: rgba(255, 255, 255, 0.95)
-  top: 0px
-  transition: all .5s
+  display: none
 
 ////////////////////////////// Media Queries
 
@@ -69,6 +63,8 @@
     max-width: 370px
 
 @media only screen and (min-width: 960px)
+  .scrolled-nav
+    display: block
   .logo
     margin: 0
   .logo-svg
