@@ -386,7 +386,8 @@ img {
   position: sticky;
   position: -webkit-sticky;
   top: 0;
-  background: #fff; }
+  background: #fff;
+  z-index: 100; }
   .primary-header:after {
     content: " ";
     display: table;
