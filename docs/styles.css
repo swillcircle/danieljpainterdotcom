@@ -437,22 +437,17 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: auto;
+    margin: 10px auto 0;
     max-width: 370px; } }
 
 @media only screen and (min-width: 960px) {
   .scrolled-nav {
     display: block; }
-  .logo {
-    margin: 0; }
   .logo-svg {
     position: relative;
     top: 10px; }
   .primary-header {
-    padding: 1.25% 2.5%;
-    flex-direction: row; }
-  .primary-nav {
-    margin: 0 0 0 auto; } }
+    padding: 1.25% 2.5%; } }
 
 /*******************
 Footer
