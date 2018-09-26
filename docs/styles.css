@@ -368,10 +368,6 @@ a {
 img {
   max-width: 100%; }
 
-body {
-  display: flex;
-  flex-direction: column; }
-
 .form-btn {
   height: 50px;
   width: 100%;
