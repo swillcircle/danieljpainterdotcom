@@ -8,18 +8,18 @@ html
 
     div.contact-wrapper
       form.contact-form(method="post" action="https://formspree.io/dannyjpainter@gmail.com")
-        label(for="name") Name
-        input(type="text" name="name" class="form-input" required)
-        label(for="email") Email
-        input(type="email" name="email" class="form-input" required)
-        label(for="subject") Subject
-        input(type="text" name="subject" class="form-input")
-        label(for="message") Message
-        textarea(name="message" class="form-input" required)
+        input(type="text" placeholder="Name" name="name" class="form-input" required)
+        input(type="email" placeholder="Email" name="email" class="form-input" required)
+        input(type="text" placeholder="Subject" name="subject" class="form-input")
+        textarea(placeholder="Message" name="message" class="form-input" required)
         button(class="form-btn" type="submit") Send Message
         
     div.personal-email
-      p or @dannyjpainter@gmail.com
+      p
+        small
+          | contact directly
+        br 
+        | dannyjpainter@gmail.com
     footer
       a(href='https://www.instagram.com/swillcircle/')
         img.social-icon(src='img/instagram logo.png', alt='Instagram')

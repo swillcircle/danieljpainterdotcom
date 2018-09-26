@@ -5,9 +5,9 @@ $(document).ready(function(){
   $(window).scroll(function(){
     scrollTop = $(window).scrollTop();
 
-    if (scrollTop > 80) {
+    if (scrollTop > 120) {
       $('.logo').addClass('scrolled-nav');
-    } else if (scrollTop < 80) {
+    } else if (scrollTop < 120) {
       $('.logo').removeClass('scrolled-nav');
     }
   });
