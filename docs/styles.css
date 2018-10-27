@@ -592,7 +592,7 @@ label {
   border-radius: 12px;
   outline: none; }
 
-.contact-form textarea {
+.contact-form {
   width: 100%;
   max-width: 500px; }
 
