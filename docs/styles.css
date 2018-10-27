@@ -592,6 +592,10 @@ label {
   border-radius: 12px;
   outline: none; }
 
+.contact-form textarea {
+  width: 100%;
+  max-width: 500px; }
+
 @media only screen and (max-width: 815px) {
   .contact-form {
     margin: 0 0 25px;
@@ -600,6 +604,4 @@ label {
 
 @media only screen and (max-width: 650px) {
   .form-input {
-    width: 100%; }
-  .contact-form textarea {
     width: 100%; } }
