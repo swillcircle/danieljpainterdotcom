@@ -536,6 +536,9 @@ footer {
   align-items: center;
   margin: 10% auto 5%; }
 
+hr {
+  opacity: .4; }
+
 @media screen and (min-width: 768px) {
   .about-wrapper {
     display: flex; }
