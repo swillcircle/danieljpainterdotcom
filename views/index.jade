@@ -61,5 +61,8 @@ html
     footer
       a(href='https://www.instagram.com/swillcircle/')
         img.social-icon(src='img/instagram logo.png', alt='Instagram')
-      p &copy; 2018 Daniel Painter
+        p
+          | &copy; 
+          script.
+            document.write(new Date().getFullYear())
     
