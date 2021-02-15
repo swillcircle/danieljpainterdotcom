@@ -59,7 +59,11 @@ html
          h1.work-headline WORK
          h3.work-text
           | My work is about a need to build and destroy, to allow physicality and natural properties of elements to create and guide the work and myself. I use the chemical reactions of iron and copper to create my palette and their patinas to guide the image or subject. I use traditional elements of charcoal, ink, and lead to define and detail the subject. The work suggests beauty within disorder and vulnerability within destruction. The works are created out of my reaction to the evolution of marks and colors in order to find a figure that creates a cohesive piece.
-  footer.insta-logo 
-    a(href='https://www.instagram.com/swillcircle/')
-      img(class="social-icon", src='img/instagram logo.png', alt='Instagram')
-    p.insta-copy &copy; 2018 Daniel Painter
+  footer
+      a(href='https://www.instagram.com/swillcircle/')
+        img.social-icon(src='img/instagram logo.png', alt='Instagram')
+      p
+        | &copy;
+        script.
+          document.write(new Date().getFullYear())
+        |  &nbsp;Daniel Painter

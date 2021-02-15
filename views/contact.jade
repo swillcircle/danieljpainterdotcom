@@ -13,14 +13,18 @@ html
         input(type="text" placeholder="Subject" name="subject" class="form-input")
         textarea(placeholder="Message" name="message" class="form-input" required)
         button(class="form-btn" type="submit") Send Message
-        
+
     div.personal-email
       p
         small
           | contact directly
-        br 
+        br
         | dannyjpainter@gmail.com
     footer
       a(href='https://www.instagram.com/swillcircle/')
         img.social-icon(src='img/instagram logo.png', alt='Instagram')
-      p &copy; 2018 Daniel Painter
+      p
+        | &copy;
+        script.
+          document.write(new Date().getFullYear())
+        |  &nbsp;Daniel Painter
