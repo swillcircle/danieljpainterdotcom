@@ -840,12 +840,12 @@
       "pg" : 0,
       "sct" : 1
     },
-    "\/stylesheets\/pages\/contact.sass" : {
+    "\/stylesheets\/pages\/contact.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
       "ec" : 1,
-      "ft" : 2,
+      "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/stylesheets\/css\/contact.css",
@@ -895,56 +895,6 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 1
-    },
-    "\/views\/about.jade" : {
-      "cB" : 0,
-      "cOD" : 1,
-      "ft" : 512,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/docs\/about.html",
-      "oF" : 2,
-      "oS" : 0
-    },
-    "\/views\/contact.jade" : {
-      "cB" : 0,
-      "cOD" : 1,
-      "ft" : 512,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/docs\/contact.html",
-      "oF" : 2,
-      "oS" : 0
-    },
-    "\/views\/head.jade" : {
-      "cB" : 0,
-      "cOD" : 1,
-      "ft" : 512,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/views\/head.html",
-      "oF" : 1,
-      "oS" : 0
-    },
-    "\/views\/index.jade" : {
-      "cB" : 0,
-      "cOD" : 1,
-      "ft" : 512,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/docs\/index.html",
-      "oF" : 2,
-      "oS" : 0
-    },
-    "\/views\/nav.jade" : {
-      "cB" : 0,
-      "cOD" : 1,
-      "ft" : 512,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/views\/nav.html",
-      "oF" : 0,
-      "oS" : 0
     }
   },
   "hooks" : [

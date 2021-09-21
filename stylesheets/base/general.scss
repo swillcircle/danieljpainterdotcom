@@ -9,8 +9,41 @@ General
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 img {
   max-width: 100%;
 }
+body {
+  position: relative;
+}
+.block {
+  display: block;
+}
+.absolute {
+  position: absolute;
+}
+.relative {
+  position: relative;
+}
+.text-center {
+  text-align: center;
+}
+.m-0 {
+  margin: 0;
+}
+
+.mt-8 {
+  margin-top: 8px;
+}
+
+.bg-tilt {
+  width: 100%;
+  height: 33%;
+  background-color: #f9fafb;
+  z-index: -10;
+  transform: translateY(100%) skew(10deg, -5deg) scale(2);;
+}
+
+
