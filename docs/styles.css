@@ -607,7 +607,7 @@ label,
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 5% auto; }
+  margin: 5% auto 2.5%; }
 
 .contact-form textarea {
   width: 100%;
