@@ -509,21 +509,29 @@ footer {
   width: 100%; }
 
 .about-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
   width: 90%;
-  margin: 20% auto 0;
+  margin: 5% auto 0;
   position: relative;
   z-index: 10;
   padding: 0 10%; }
+
+.about-wrapper section {
+  padding: 40px 40px 60px;
+  background-color: white;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  height: fit-content;
+  margin-top: 24px;
+  min-width: 100%; }
 
 .profile-photo {
   position: fixed;
   bottom: -10px;
   height: 50%; }
-
-.about-container {
-  width: 75%;
-  margin-left: auto;
-  margin-top: 30%; }
 
 .upcoming-header,
 .upcoming-text,
@@ -557,10 +565,18 @@ footer {
   font-size: 12px;
   margin: 4px 0 0; }
 
-.bio-headline,
 .work-headline {
-  text-align: right;
-  margin-right: 10%; }
+  padding: 30px 0 0; }
+
+.bio-headline::after,
+.work-headline::after {
+  content: "";
+  width: 50px;
+  height: 4px;
+  background-color: #de928b;
+  display: block;
+  border-radius: 12px;
+  margin: 4px 0 12px; }
 
 .insta-logo {
   display: flex;
@@ -571,12 +587,16 @@ footer {
 hr {
   opacity: .4; }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 996px) {
   .about-wrapper {
-    display: flex; }
+    flex-direction: row;
+    justify-content: space-evenly; }
+  .about-wrapper section {
+    margin-top: unset;
+    min-width: unset;
+    margin-bottom: auto; }
   .about-container {
-    width: 40%;
-    margin-top: 0; }
+    width: 40%; }
   .bio-headline,
   .work-headline {
     margin-right: 5%; }

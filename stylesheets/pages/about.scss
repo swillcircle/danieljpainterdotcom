@@ -1,0 +1,133 @@
+// About
+.about-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  width: 90%;
+  margin: 5% auto 0;
+  position: relative;
+  z-index: 10;
+  padding: 0 10%;
+}
+
+
+.about-wrapper section {
+  padding: 40px 40px 60px;
+  background-color: white;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, .2);
+  border-radius: 6px;
+  height: fit-content;
+  margin-top: 24px;
+  min-width: 100%;
+}
+
+.profile-photo {
+  position: fixed;
+  bottom: -10px;
+  height: 50%;
+}
+
+.upcoming-header,
+.upcoming-text,
+.upcoming-events,
+.bio-headline,
+.work-headline,
+.bio-text,
+.work-text,
+.insta-copy {
+  font-family: $font;
+  font-weight: $font-weight-lt;
+}
+
+
+.upcoming-header,
+.upcoming-text,
+.bio-headline,
+.work-headline {
+  color: $headline-color;
+  font-size: 24px;
+  letter-spacing: $letter-spacing;
+  margin: 2px 0;
+}
+
+
+.upcoming-text {
+  font-size: 14px;
+  opacity: .8;
+}
+
+
+.upcoming-events,
+.bio-text,
+.work-text,
+.insta-copy {
+  color: $sub-text-color;
+  font-size: 12px;
+  margin: 4px 0 0;
+}
+
+
+.work-headline {
+  padding: 30px 0 0;
+}
+
+.bio-headline::after,
+.work-headline::after {
+  content: "";
+  width: 50px;
+  height: 4px;
+  background-color: #de928b;
+  display: block;
+  border-radius: 12px;
+  margin: 4px 0 12px;
+}
+
+
+
+.insta-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10% auto 5%;
+}
+
+
+hr {
+  opacity: .4;
+}
+
+
+@media screen and (min-width: 996px) {
+  .about-wrapper {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .about-wrapper section {
+    margin-top: unset;
+    min-width: unset;
+    margin-bottom: auto;
+  }
+
+  .about-container {
+    width: 40%;
+  }
+
+
+  .bio-headline,
+  .work-headline {
+    margin-right: 5%;
+  }
+
+
+  .upcoming-events,
+  .bio-text,
+  .work-text,
+  .insta-copy {
+    font-size: 14px;
+  }
+
+}
+
+
+@media only screen and (min-width: 996px) {}
